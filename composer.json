@@ -1,0 +1,22 @@
+{
+  "name": "kruzya/steam-id-converter",
+  "description": "Simple library for converting SteamID to v2/v3/community and vice versa",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "CrazyHackGUT aka Kruzya",
+      "email": "kruzefag@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "5.4",
+    "ext-gmp": "*",
+    "ext-regex": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kruzya\\SteamIdConverter": "src"
+    }
+  }
+}
