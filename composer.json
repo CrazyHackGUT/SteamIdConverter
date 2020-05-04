@@ -3,6 +3,7 @@
   "description": "Simple library for converting SteamID to v2/v3/community and vice versa",
   "minimum-stability": "stable",
   "license": "mit",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "CrazyHackGUT aka Kruzya",
@@ -10,7 +11,7 @@
     }
   ],
   "require": {
-    "php": "5.4",
+    "php": ">=5.4",
     "ext-gmp": "*",
     "ext-regex": "*"
   },
